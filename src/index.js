@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'animate.css'
+import 'lax.js'
+import { BrowserRouter} from 'react-router-dom';
+import {RoutesMedTrack} from './routes/RoutesMedTrack';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <BrowserRouter>
+        <RoutesMedTrack></RoutesMedTrack>
+      </BrowserRouter>
   </React.StrictMode>
 );
 

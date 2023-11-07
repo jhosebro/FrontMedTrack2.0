@@ -1,0 +1,28 @@
+$primary : #2a5ce9;
+$secondary : #5bd654;
+$danger: #BB2D3B;
+$light: #FFFFFF;
+$success: #198754;
+
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "light": $light
+);
+
+
+
+$display-font-family: 'Orbitron', sans-serif;
+$display-font-sizes: (
+  1: 2rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+) !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

@@ -1,0 +1,13 @@
+.login {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(42, 92, 233, 0.8));
+}
+
+.login2 {
+  background: linear-gradient(to right, #2a82c9, #8fd694);
+}
+
+.bg {
+  background-image: url("../../../assets/fondoGetStarted.jpg");
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=Login.css.map */
